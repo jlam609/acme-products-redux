@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
-import axios from 'axios'
 import {connect} from 'react-redux'
 import {BrowserRouter, Switch, Link, Route} from 'react-router-dom'
-import path from 'path'
 import Products from './Products'
 import Home from './Home'
 import Create from './Create'
